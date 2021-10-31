@@ -4,7 +4,7 @@
 
 // calling the function that audit the time 
  auditTime();
- 
+
 // getting the saved taskes from the local storage
 var taskItm1 = JSON.parse(localStorage.getItem("task1"));
 $("#input1").val(taskItm1);
@@ -31,7 +31,7 @@ $("#input1").val(taskItm1);
 
     $(".row").each(function(){
          time = parseInt($(this).attr("id"));
-        console.log(time);
+        
         if (currentTime > time){
           $(this).addClass("past");
       
@@ -90,7 +90,7 @@ $("#input1").val(taskItm1);
     $(".saveBtn").click( function(){
       var textEl =$("#input8").val().trim();
       localStorage.setItem('task8',JSON.stringify(textEl));
-        console.log("click");
+       
     });
     $(".saveBtn").click( function(){
       var textEl =$("#input9").val().trim();
