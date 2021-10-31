@@ -1,8 +1,10 @@
+ // getting the current date 
  var todayDateEl = document.getElementById("currentDay");
-
  todayDateEl.textContent=moment().format("dddd LL");
+
 // calling the function that audit the time 
  auditTime();
+ 
 // getting the saved taskes from the local storage
 var taskItm1 = JSON.parse(localStorage.getItem("task1"));
 $("#input1").val(taskItm1);
@@ -22,7 +24,6 @@ $("#input1").val(taskItm1);
  $("#input8").val(taskItm8);
  var taskItm9 = JSON.parse(localStorage.getItem("task9"));
  $("#input9").val(taskItm9);
-
 
 // the function that audit the time and change the task backround color
  function auditTime(){
