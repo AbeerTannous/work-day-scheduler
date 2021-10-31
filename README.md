@@ -11,7 +11,7 @@
 
 
  ## Website 
- https://abeertannous.github.io/Code-Quiz/
+ https://abeertannous.github.io/work-day-scheduler/
  
 ## Contribution
  updated by Abeer Tannous.
